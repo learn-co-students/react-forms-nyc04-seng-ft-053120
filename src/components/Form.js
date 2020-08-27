@@ -13,6 +13,7 @@ class Form extends React.Component {
   }
 
   handleLastNameChange = event => {
+    console.log('hello')
     this.setState({
       lastName: event.target.value
     })
